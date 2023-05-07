@@ -1,0 +1,19 @@
+.main_container {
+    max-height: calc(100vh - 55px);
+    overflow-y: scroll;
+    flex-grow: 1;
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: auto
+}
+
+.main_container::-webkit-scrollbar{
+    background-color: transparent;
+    width: 5px;
+}
+
+.main_container::-webkit-scrollbar-thumb{
+    background-color:var(--transparent_blue);
+    border-radius: 100px;
+}

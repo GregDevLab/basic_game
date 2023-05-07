@@ -1,0 +1,33 @@
+:root{
+    --bgc_theme: #292c2e;
+    --text_theme: #ffffff;
+    --blue : #0099ff;
+    --transparent_blue: #0099ff4d;
+    --bgc_element: #1e212280;
+}
+
+html{
+    background-color: var(--bgc_theme);
+    color: var(--text_theme);
+    display: flex;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#root{
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
