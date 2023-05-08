@@ -31,3 +31,20 @@ ul{
     padding: 0;
     list-style: none;
 }
+.game{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.btn{
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 10px var(--transparent_blue);
+    background-color: rgba(0, 0, 0, 0.30);
+    color: var(--text_theme);
+}

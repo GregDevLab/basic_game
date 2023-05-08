@@ -1,0 +1,39 @@
+.game_container{
+    width: fit-content;
+    margin: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mater_mind{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid var(--blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.code{
+    border: 1px solid var(--blue);
+    margin-bottom: 10px;
+}
+
+.mask {
+    position: relative;
+}
+
+.mask::after{
+    content: 'CODE';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: var(--blue);
+}

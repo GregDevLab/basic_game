@@ -1,0 +1,6 @@
+.row_square {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
